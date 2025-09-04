@@ -1,16 +1,28 @@
-## Hi there 👋
+# 👋 Hey, I'm Preston
 
-<!--
-**preston-bernstein/preston-bernstein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m a senior full stack engineer. Most of my professional work has been around building and deploying **React** front ends and **Node.js** services, and working with the teams handling the broader microservices that connect to them.  
 
-Here are some ideas to get you started:
+Along the way I’ve gotten very deep into **Grafana** and **BigQuery**, since monitoring our services and digging through the data when things go wrong.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Lately I’ve been pushing myself outside of the pure web stack and getting more serious with **Python**. I’ve started building and deploying some small ML-backed APIs to round out my skills and get comfortable with where the industry is heading.
+
+---
+
+## 🔧 What I Work With
+- **Full Stack**: React, Node.js, Express, GraphQL/REST  
+- **Cloud & Deployment**: Docker, Cloud Foundry, Terraform-managed environments  
+- **Observability & Data**: Grafana, BigQuery  
+- **Learning**: Python, FastAPI, scikit-learn  
+
+---
+
+## 📌 Some of My Work
+- [**connect-four**](#) — a React/Redux take on the game, a fun project I’ve used to play with front-end state management  
+- *More to come*: I plan to share some Grafana dashboards and an NBA prediction project I’m working on as I clean them up
+
+---
+---
+
+## 📫 How to Reach Me
+- Email: [contact@prestonbernstein.com]  
+- LinkedIn: [https://www.linkedin.com/in/prestonbernstein/]
