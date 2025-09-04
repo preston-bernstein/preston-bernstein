@@ -17,7 +17,7 @@ Lately I’ve been pushing myself outside of the pure web stack and getting more
 ---
 
 ## 📌 Some of My Work
-- [**connect-four**](#) — a React/Redux take on the game, a fun project I’ve used to play with front-end state management  
+- [**connect-four**](https://github.com/preston-bernstein/connect-four) — a React/Redux take on the game, a fun project I’ve used to play with front-end state management  
 - *More to come*: I plan to share some Grafana dashboards and an NBA prediction project I’m working on as I clean them up
 
 ---
