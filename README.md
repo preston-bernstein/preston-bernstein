@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Preston
+# Hey, I'm Preston
 
 I’m a senior full stack engineer. Most of my professional work has been around building and deploying **React** front ends and **Node.js** services, and working with the teams handling the broader microservices that connect to them.  
 
@@ -8,7 +8,7 @@ Lately I’ve been pushing myself outside of the pure web stack and getting more
 
 ---
 
-## 🔧 What I Work With
+## What I Work With
 - **Full Stack**: React, Node.js, Express, GraphQL/REST  
 - **Cloud & Deployment**: Docker, Cloud Foundry, Terraform-managed environments  
 - **Observability & Data**: Grafana, BigQuery  
@@ -16,13 +16,13 @@ Lately I’ve been pushing myself outside of the pure web stack and getting more
 
 ---
 
-## 📌 Some of My Work
-- [**nba-predictor**](https://github.com/preston-bernstein/nba-predictor) — 🏀 End-to-end NBA predictor: scrapes Basketball-Reference → builds rolling features → trains scikit-learn → serves via FastAPI (/predict). Reproducible Makefile pipeline, strong pytest/HTML coverage, pre-commit + CI (branch/diff-cover). Currently a clean logistic-regression baseline, extensible.  
+## Some of My Work
+- [**nba-predictor**](https://github.com/preston-bernstein/nba-predictor) — End-to-end NBA predictor: scrapes Basketball-Reference → builds rolling features → trains scikit-learn → serves via FastAPI (/predict). Reproducible Makefile pipeline, strong pytest/HTML coverage, pre-commit + CI (branch/diff-cover). Currently a clean logistic-regression baseline, extensible.  
 - *More to come*: I plan to share some Grafana dashboards and an NBA prediction project I’m working on as I clean them up
 
 ---
 ---
 
-## 📫 How to Reach Me
+## How to Reach Me
 - Email: [contact@prestonbernstein.com]  
 - LinkedIn: [https://www.linkedin.com/in/prestonbernstein/]
