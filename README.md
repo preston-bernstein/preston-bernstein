@@ -11,6 +11,7 @@ Senior full stack engineer shipping React/Node apps and collaborating across mic
 ## Selected Work
 - [nba-predictor](https://github.com/preston-bernstein/nba-predictor): End-to-end NBA predictor with scrape → feature build → scikit-learn training → FastAPI serve; Makefile pipeline; pytest coverage; pre-commit + CI.
 - [nba-games-service](https://github.com/preston-bernstein/nba-games-service): Go microservice for NBA games with provider polling, normalized domain models, in-memory cache, `/health`, `/games/today`, `/games/{id}`, fixture provider, Postman collection, and VS Code tasks.
+- [nba-analytics-hub](https://github.com/preston-bernstein/nba-analytics-hub): Monorepo (Vite/React frontend, Node BFF, shared TS packages) for NBA analytics; enforces strict type contracts and service boundaries; includes data-access, UI, and end-to-end testing setup.
 
 ## How to Reach Me
 - Email: contact@prestonbernstein.com  
