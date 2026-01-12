@@ -1,18 +1,19 @@
 # Hey, I'm Preston
 
-Senior full stack engineer shipping React/Node apps and collaborating across microservices. I also build backend services in Go and Python when they’re the right fit, and I lean on Grafana/BigQuery for observability. Exploring ML-backed APIs to stay current.
+Senior full stack engineer. I ship React/Node apps and build Go or Python services when they fit. I focus on observability and clean service boundaries.
 
-## What I Work With
-- React, Node.js/Express, GraphQL/REST, Go (HTTP/services)
-- Docker, Cloud Foundry, Terraform-managed environments
+## What I work with
+- React, Node.js/Express, GraphQL, REST, Go
+- Docker, Cloud Foundry, Terraform
 - Grafana, BigQuery
 - Python, FastAPI, scikit-learn
 
-## Selected Work
-- [nba-predictor](https://github.com/preston-bernstein/nba-predictor): End-to-end NBA predictor with scrape → feature build → scikit-learn training → FastAPI serve; Makefile pipeline; pytest coverage; pre-commit + CI.
-- [nba-games-service](https://github.com/preston-bernstein/nba-games-service): Go microservice for NBA games with provider polling, normalized domain models, in-memory cache, `/health`, `/games/today`, `/games/{id}`, fixture provider, Postman collection, and VS Code tasks.
-- [nba-analytics-hub](https://github.com/preston-bernstein/nba-analytics-hub): Monorepo (Vite/React frontend, Node BFF, shared TS packages) for NBA analytics; enforces strict type contracts and service boundaries; includes data-access, UI, and end-to-end testing setup.
+## Selected work
+- [nba-predictor](https://github.com/preston-bernstein/nba-predictor): End-to-end NBA predictor. Scrape, features, scikit-learn training, FastAPI serving. Makefile pipeline. Pytest coverage. Pre-commit and CI.
+- [nba-data-service](https://github.com/preston-bernstein/nba-data-service): Go service for NBA games. Provider polling. Normalized models. In-memory cache. `/health`, `/games/today`, `/games/{id}`. Fixtures, Postman, VS Code tasks.
+- [nba-analytics-hub](https://github.com/preston-bernstein/nba-analytics-hub): Monorepo for NBA analytics. Vite/React frontend, Node BFF, shared TS packages. Strict type contracts and service boundaries. Data-access, UI, and end-to-end testing setup.
+- [nba-infra](https://github.com/preston-bernstein/nba-infra): Deployment glue for the stack. Compose, proxy config, env templates, and ops docs.
 
-## How to Reach Me
+## How to reach me
 - Email: contact@prestonbernstein.com  
 - LinkedIn: https://www.linkedin.com/in/prestonbernstein/
