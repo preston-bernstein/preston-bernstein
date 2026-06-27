@@ -1,22 +1,33 @@
 # Hey, I'm Preston
 
-Senior full stack engineer. I build React/Node applications and design Go or Python services where they are the right fit. I focus on observability and clean service boundaries.
+Senior full stack engineer. I build React/Node/Go services by day and run self-hosted AI infrastructure at home — the line between the two has gotten pretty blurry.
 
-## What I work with
-- React, Node.js/Express, GraphQL, REST, Go
-- Docker, Cloud Foundry, Terraform
-- Grafana, BigQuery
-- Python, FastAPI, scikit-learn
+Based in Atlanta.
 
-## NBA Analytics Platform (Multi-Service System)
+## What I'm building
 
-A cohesive, end-to-end analytics and prediction platform composed of multiple internal services, designed around clear ownership boundaries and a single frontend integration surface.
+**[ollama-resource-broker](https://github.com/preston-bernstein/ollama-resource-broker)** — GPU arbitration for a single PC shared between gaming, Plex, and local LLM inference. Queues and preempts Ollama jobs based on what else the machine is doing so nothing starves.
 
-- [nba-analytics-hub](https://github.com/preston-bernstein/nba-analytics-hub): Public-facing analytics system. Vite/React frontend, Node BFF, shared TypeScript packages enforcing strict contracts and service boundaries.
-- [nba-data-service](https://github.com/preston-bernstein/nba-data-service): Go service for NBA game ingestion. Provider polling, normalized domain models, in-memory caching, health-checked HTTP APIs.
-- [nba-predictor](https://github.com/preston-bernstein/nba-predictor): End-to-end prediction pipeline. Scraping, feature extraction, scikit-learn training, FastAPI inference, Makefile workflows, CI.
-- [nba-infra](https://github.com/preston-bernstein/nba-infra): Deployment and operations layer. Compose orchestration, proxy configuration, environment templates, and ops documentation.
+**[proton-email-mcp](https://github.com/preston-bernstein/proton-email-mcp)** — MCP server for Proton Mail via Bridge (IMAP/SMTP). Works in Claude Code (stdio) and LibreChat (streamable-http).
 
-## How to reach me
-- Email: contact@prestonbernstein.com  
-- LinkedIn: https://www.linkedin.com/in/prestonbernstein/
+**[agent-orchestrator](https://github.com/preston-bernstein/agent-orchestrator)** — Local planning + execution harness for agent workflows. Feed it a spec, it plans, optionally gates on human approval, then executes. Inngest-compatible for event-driven runs.
+
+**Home AI stack** *(private)* — LibreChat + LightRAG + a mesh of MCP servers on a home lab. AMD 9070 XT, Synology NAS, more containers than is strictly reasonable.
+
+**Estate sale scanner** *(private)* — Scrapes listings, runs Ollama vision to score images for valuable items, surfaces results in a dashboard. Making the garage sale circuit slightly less manual.
+
+## What I reach for
+
+| | |
+|---|---|
+| **Languages** | TypeScript · Go · Python |
+| **Frontend** | React · Vite · GraphQL |
+| **Infra** | Docker · Terraform · Grafana · BigQuery · Cloudflare |
+| **AI / inference** | Ollama · LightRAG · MCP · FastAPI · scikit-learn |
+| **Platform** | Linux home server · Synology NAS |
+
+## Find me
+
+- [prestonbernstein.com](https://prestonbernstein.com)
+- [LinkedIn](https://linkedin.com/in/prestonbernstein/)
+- [contact@prestonbernstein.com](mailto:contact@prestonbernstein.com)
