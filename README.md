@@ -1,6 +1,6 @@
 # Hey, I'm Preston
 
-Senior full stack engineer. I build React/Node/Go services by day and run self-hosted AI infrastructure at home — the line between the two has gotten pretty blurry.
+I like to build things.
 
 Based in Atlanta.
 
