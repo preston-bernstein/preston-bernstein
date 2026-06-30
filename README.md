@@ -14,7 +14,7 @@ Based in Atlanta.
 
 **Home AI stack** *(private)* — LibreChat + LightRAG + a mesh of MCP servers on a home lab. AMD 9070 XT, Synology NAS, more containers than is strictly reasonable.
 
-**Estate sale scanner** *(private)* — Scrapes listings, runs Ollama vision to score images for valuable items, surfaces results in a dashboard. Making the garage sale circuit slightly less manual.
+**[Estate sale scanner](https://github.com/preston-bernstein/estate-scraper)** — Scrapes listings, runs Ollama vision to score images for valuable items, surfaces results in a dashboard. Making the garage sale circuit slightly less manual.
 
 ## What I reach for
 
