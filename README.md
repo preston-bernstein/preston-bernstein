@@ -16,6 +16,8 @@ Based in Atlanta.
 
 **Home lab** *(private)* — Docker Compose stacks and tooling running a multimedia server, NAS, MCP servers, and the shared infra the rest attaches to.
 
+**[listing-vision-pipeline](https://github.com/preston-bernstein/listing-vision-pipeline)** — Clean-room demo of a resale-listing pipeline: ingest → vision-score (local Ollama) → rank → alert → dashboard. Runs fully offline on bundled fixture data.
+
 **Resale automation** *(private)* — Scrapers plus LLM scoring that watch estate sales and resale listings, with Telegram alerts.
 
 **Algo trading research** *(private)* — Agentic strategy development with anti-overfit validation gates (deflated Sharpe, PBO, purged CV, Monte Carlo).
