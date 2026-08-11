@@ -18,6 +18,8 @@ Based in Atlanta.
 
 **[listing-vision-pipeline](https://github.com/preston-bernstein/listing-vision-pipeline)** — Clean-room demo of a resale-listing pipeline: ingest → vision-score (local Ollama) → rank → alert → dashboard. Runs fully offline on bundled fixture data.
 
+**[NBA stack](https://github.com/preston-bernstein/nba-analytics-hub)** — Full-stack NBA analytics demo: a Go service polls and normalizes game data, a Python model predicts outcomes, and an Nx monorepo (React/Vite + Node BFF) serves the dashboard.
+
 **Resale automation** *(private)* — Scrapers plus LLM scoring that watch estate sales and resale listings, with Telegram alerts.
 
 **Algo trading research** *(private)* — Agentic strategy development with anti-overfit validation gates (deflated Sharpe, PBO, purged CV, Monte Carlo).
