@@ -6,9 +6,11 @@ Based in Atlanta.
 
 ## What I'm building
 
-**[llm-gateway](https://github.com/preston-bernstein/llm-gateway)** — Self-hosted LiteLLM proxy as a hardened systemd service. One gateway for Anthropic, Gemini, and local Ollama.
+**[ollama-yield](https://github.com/preston-bernstein/ollama-yield)** — Stops a local LLM from holding the GPU when a game or Plex transcode starts. Pauses and resumes Ollama around them. Works on any GPU, including AMD.
 
-**[agent-orchestrator](https://github.com/preston-bernstein/agent-orchestrator)** — Local planning + execution harness for agent workflows. Feed it a spec, it plans, optionally gates on human approval, then executes. Inngest-compatible for event-driven runs.
+**llm-gateway** *(private)* — Self-hosted LiteLLM proxy as a hardened systemd service. One gateway for Anthropic, Gemini, and local Ollama.
+
+**agent-orchestrator** *(private)* — Local planning + execution harness for agent workflows. Feed it a spec, it plans, optionally gates on human approval, then executes. Inngest-compatible for event-driven runs.
 
 **[email-mcp-server](https://github.com/preston-bernstein/email-mcp-server)** — MCP server for email via Proton Mail Bridge (IMAP/SMTP). Works in Claude Code (stdio) and LibreChat (streamable-http).
 
