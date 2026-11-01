@@ -8,30 +8,25 @@ Based in Atlanta.
 
 **[ollama-yield](https://github.com/preston-bernstein/ollama-yield)** — Stops a local LLM from holding the GPU when a game or Plex transcode starts. Pauses and resumes Ollama around them. Works on any GPU, including AMD.
 
-**llm-gateway** *(private)* — Self-hosted LiteLLM proxy as a hardened systemd service. One gateway for Anthropic, Gemini, and local Ollama.
-
-**agent-orchestrator** *(private)* — Local planning + execution harness for agent workflows. Feed it a spec, it plans, optionally gates on human approval, then executes. Inngest-compatible for event-driven runs.
+**[resale-inventory](https://github.com/preston-bernstein/resale-inventory)** — Local-first inventory dashboard for book and clothing resale. Next.js 15, React 19, TypeScript, and SQLite.
 
 **[email-mcp-server](https://github.com/preston-bernstein/email-mcp-server)** — MCP server for email via Proton Mail Bridge (IMAP/SMTP). Works in Claude Code (stdio) and LibreChat (streamable-http).
 
+**[ci-workflows](https://github.com/preston-bernstein/ci-workflows)** — Shared GitHub Actions workflows for every repo on this account. Replaced 36 hand-written CI files with pinned, reusable ones.
+
 **[vault-maintenance](https://github.com/preston-bernstein/vault-maintenance)** — Obsidian vault link checker and index maintainer. CLI, runs on a schedule.
 
-**Home lab** *(private)* — Docker Compose stacks and tooling running a multimedia server, NAS, MCP servers, and the shared infra the rest attaches to.
+**[listing-vision-pipeline](https://github.com/preston-bernstein/listing-vision-pipeline)** — Resale-listing pipeline demo: ingest → vision-score (local Ollama) → rank → alert → dashboard. Runs fully offline on fixture data.
 
-**[listing-vision-pipeline](https://github.com/preston-bernstein/listing-vision-pipeline)** — Clean-room demo of a resale-listing pipeline: ingest → vision-score (local Ollama) → rank → alert → dashboard. Runs fully offline on bundled fixture data.
-
-**[NBA stack](https://github.com/preston-bernstein/nba-analytics-hub)** — Full-stack NBA analytics demo: a Go service polls and normalizes game data, a Python model predicts outcomes, and an Nx monorepo (React/Vite + Node BFF) serves the dashboard.
-
-**Resale automation** *(private)* — Scrapers plus LLM scoring that watch estate sales and resale listings, with Telegram alerts.
-
-**Algo trading research** *(private)* — Agentic strategy development with anti-overfit validation gates (deflated Sharpe, PBO, purged CV, Monte Carlo).
+Most of my home-lab work is private: an LLM gateway, agent tooling, and the Docker stacks that run my media server and NAS.
 
 ## What I reach for
 
 | | |
 |---|---|
-| **Languages** | TypeScript · Go · Python |
-| **Frontend** | React · Vite · GraphQL |
+| **Languages** | TypeScript · Java · Go · Python |
+| **Frontend** | React · Next.js · Vite · GraphQL |
+| **Backend** | Spring Boot · Node · FastAPI |
 | **Infra** | Docker · Terraform · Grafana · BigQuery · Cloudflare |
 | **AI / inference** | Ollama · LightRAG · MCP · FastAPI · scikit-learn |
 | **Platform** | Linux home server · Synology NAS |
