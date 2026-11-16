@@ -1,0 +1,37 @@
+{
+ "_reason": "Vendored pack gate scripts, copied unchanged from the stack packs. Fix them upstream in the pack, not here.",
+ "functions": {
+  "scripts/core-check.py::main": {
+   "param": 1,
+   "token": 330,
+   "length": 32,
+   "ccn": 20,
+   "nloc": 32,
+   "nd": 0
+  },
+  "scripts/core-lizard.py::main": {
+   "param": 1,
+   "token": 331,
+   "length": 27,
+   "ccn": 13,
+   "nloc": 27,
+   "nd": 0
+  },
+  "scripts/core-lizard.py::run_lizard": {
+   "param": 2,
+   "token": 304,
+   "length": 24,
+   "ccn": 11,
+   "nloc": 24,
+   "nd": 0
+  },
+  "scripts/workflow-check.py::check_workflow": {
+   "param": 1,
+   "token": 631,
+   "length": 73,
+   "ccn": 42,
+   "nloc": 62,
+   "nd": 0
+  }
+ }
+}

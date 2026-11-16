@@ -1,0 +1,54 @@
+name: gates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gates-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"
+      - name: Install Python tools (hash-locked)
+        run: |
+          python -m venv "$RUNNER_TEMP/tools"
+          "$RUNNER_TEMP/tools/bin/pip" install --require-hashes -r .github/tools/requirements.txt
+          echo "$RUNNER_TEMP/tools/bin" >> "$GITHUB_PATH"
+      - name: Install jscpd (locked)
+        run: |
+          npm ci --ignore-scripts --prefix .github/tools
+          echo "$GITHUB_WORKSPACE/.github/tools/node_modules/.bin" >> "$GITHUB_PATH"
+      - name: Install actionlint and vale (checksum-verified)
+        run: |
+          mkdir -p "$RUNNER_TEMP/bin"
+          curl -sSLf -o "$RUNNER_TEMP/al.tgz" https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz
+          curl -sSLf -o "$RUNNER_TEMP/vale.tgz" https://github.com/errata-ai/vale/releases/download/v3.27.0/vale_3.27.0_Linux_64-bit.tar.gz
+          echo "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8  $RUNNER_TEMP/al.tgz" | sha256sum -c -
+          echo "c80d62f6bce87b81843ac5b512a26e63213927b957adba0a64fc594570da2000  $RUNNER_TEMP/vale.tgz" | sha256sum -c -
+          tar xzf "$RUNNER_TEMP/al.tgz" -C "$RUNNER_TEMP/bin" actionlint
+          tar xzf "$RUNNER_TEMP/vale.tgz" -C "$RUNNER_TEMP/bin" vale
+          echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+      - name: Core gate
+        run: bash scripts/core-validate.sh
+      - name: GitHub Actions gate
+        run: bash scripts/gha-validate.sh
+      - name: Writing gate
+        run: bash scripts/writing-validate.sh
