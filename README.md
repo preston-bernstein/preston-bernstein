@@ -10,8 +10,6 @@ Based in Atlanta.
 
 **[resale-inventory](https://github.com/preston-bernstein/resale-inventory)** — Local-first inventory dashboard for book and clothing resale. Next.js 15, React 19, TypeScript, and SQLite.
 
-**[email-mcp-server](https://github.com/preston-bernstein/email-mcp-server)** — MCP server for email via Proton Mail Bridge (IMAP/SMTP). Works in Claude Code (stdio) and LibreChat (streamable-http).
-
 **[ci-workflows](https://github.com/preston-bernstein/ci-workflows)** — Shared GitHub Actions workflows for every repo on this account. Replaced 36 hand-written CI files with pinned, reusable ones.
 
 **[vault-maintenance](https://github.com/preston-bernstein/vault-maintenance)** — Obsidian vault link checker and index maintainer. CLI, runs on a schedule.
